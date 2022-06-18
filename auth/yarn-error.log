@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\dmytr\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D typescript nodemon @types/node @types/express
+
+PATH: 
+  C:\Users\dmytr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\dmytr\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\php;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\dmytr\.cargo\bin;C:\Users\dmytr\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\dmytr\AppData\Local\Programs\Python\Python310;C:\Users\dmytr\AppData\Local\Microsoft\WindowsApps;C:\Users\dmytr\AppData\Roaming\npm;D:\PyCharm Community Edition 2021.3.3\bin;D:\Microsoft VS Code\bin;C:\php;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.17.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+
+npm manifest: 
+  {
+    "name": "auth",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

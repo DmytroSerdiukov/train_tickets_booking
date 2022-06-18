@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: main-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: main
+  template:
+    metadata:
+      labels:
+        app: main
+    spec:
+      containers:
+        - name: main
+          image: main:latest
+          imagePullPolicy: Never
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: main-clusterip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: main
+  ports:
+    - name: main
+      protocol: TCP
+      port: 5000
+      targetPort: 5000

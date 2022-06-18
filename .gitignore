@@ -1,0 +1,5 @@
+node_modules
+client/node_modules
+auth/node_modules
+main/node_modules
+register/node_modules
